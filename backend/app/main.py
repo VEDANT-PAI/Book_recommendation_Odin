@@ -108,6 +108,11 @@ def sse(event: str, data: object) -> str:
     return f"event: {event}\ndata: {json.dumps(data, ensure_ascii=False)}\n\n"
 
 
+@app.get("/")
+async def root() -> dict[str, str]:
+    return {"status": "ok", "service": "Odin Chat Assistant API", "version": "1.1.0"}
+
+
 @app.get("/health", response_model=HealthResponse)
 async def health(request: Request) -> HealthResponse:
     ollama_available, _ = await request.app.state.ollama.status()
