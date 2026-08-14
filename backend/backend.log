@@ -1,0 +1,31 @@
+INFO:     Started server process [134026]
+INFO:     Waiting for application startup.
+2026-08-14 06:00:02,247 ERROR chromadb.telemetry.product.posthog Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-08-14 06:00:02,248 ERROR chromadb.telemetry.product.posthog Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-08-14 06:00:02,259 INFO odin-chat RAG store initialized: {'document_count': 0, 'collection_name': 'odin_rag'}
+2026-08-14 06:00:02,286 INFO httpx HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-08-14 06:00:02,287 INFO odin-chat startup llm_url=http://localhost:11434 llm_model=qwen3:4b ollama_available=True models=['qwen3:4b', 'nomic-embed-text:latest', 'qwen2.5:3b', 'qwen3:0.6b', 'bge-m3:latest']
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8010 (Press CTRL+C to quit)
+2026-08-14 06:00:05,378 INFO httpx HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:45174 - "GET /health HTTP/1.1" 200 OK
+INFO:     Started server process [157726]
+INFO:     Waiting for application startup.
+2026-08-14 06:04:06,357 ERROR chromadb.telemetry.product.posthog Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-08-14 06:04:06,360 ERROR chromadb.telemetry.product.posthog Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-08-14 06:04:06,375 INFO odin-chat RAG store initialized: {'document_count': 0, 'collection_name': 'odin_rag'}
+2026-08-14 06:04:06,401 INFO httpx HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-08-14 06:04:06,402 INFO odin-chat startup llm_url=http://localhost:11434 llm_model=qwen3:4b ollama_available=True models=['qwen3:4b', 'nomic-embed-text:latest', 'qwen2.5:3b', 'qwen3:0.6b', 'bge-m3:latest']
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8010 (Press CTRL+C to quit)
+2026-08-14 06:04:08,246 INFO httpx HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:39286 - "GET /health HTTP/1.1" 200 OK
+INFO:     Started server process [158864]
+INFO:     Waiting for application startup.
+2026-08-14 06:04:51,723 ERROR chromadb.telemetry.product.posthog Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-08-14 06:04:51,725 ERROR chromadb.telemetry.product.posthog Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-08-14 06:04:51,736 INFO odin-chat RAG store initialized: {'document_count': 0, 'collection_name': 'odin_rag'}
+2026-08-14 06:04:51,762 INFO httpx HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-08-14 06:04:51,763 INFO odin-chat startup llm_url=http://localhost:11434 llm_model=qwen3:4b ollama_available=True models=['qwen3:4b', 'nomic-embed-text:latest', 'qwen2.5:3b', 'qwen3:0.6b', 'bge-m3:latest']
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8010 (Press CTRL+C to quit)
